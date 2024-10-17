@@ -13,3 +13,4 @@
 /src/shared/JobHub.Shared/obj/Debug/net8.0
 /test/JobHub.Test/bin/Debug/net8.0
 /test/JobHub.Test/obj/Debug/net8.0
+/src/JobHub.Application/obj/Release/net8.0
