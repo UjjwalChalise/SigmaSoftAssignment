@@ -18,14 +18,21 @@ public class CandidatesController : ControllerBase
     [HttpGet]
     public async Task<DataResponse<IEnumerable<CandidateListDto>>> GetAllCandidtesInformation(CancellationToken cancellationToken = default)
     {
-        return null;
+        var result = await _candidateService.GetAllCandidateAsync(cancellationToken);
+        return DataResponse<IEnumerable<CandidateListDto>>.Success(result.Message, result.Data);
     }
 
+    [HttpGet("{email}")]
+    public async Task<DataResponse<CandidateListDto>> GetCandidtesInformationByEmail(string email, CancellationToken cancellationToken = default)
+    {
+        var result = await _candidateService.GetCandidateByEmailAsync(email, cancellationToken);
+        return DataResponse<CandidateListDto>.Success(result.Message, result.Data);
+    }
 
     [HttpPost]
-    public async Task<DataResponse> AddOrUpdateCandidate([FromBody] CandidateDto candidate)
+    public async Task<DataResponse> AddOrUpdateCandidate([FromBody] CandidateDto candidate, CancellationToken cancellationToken = default)
     {
-
-        return null;
+        var result = await _candidateService.AddOrUpdateCandidateAsync(candidate, cancellationToken);
+        return DataResponse.Success(result.Message);
     }
 }
