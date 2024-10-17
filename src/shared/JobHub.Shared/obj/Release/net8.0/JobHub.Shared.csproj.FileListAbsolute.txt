@@ -1,0 +1,12 @@
+D:\Downloads\SigmaSoftAssignment\src\shared\JobHub.Shared\bin\Release\net8.0\JobHub.Shared.deps.json
+D:\Downloads\SigmaSoftAssignment\src\shared\JobHub.Shared\bin\Release\net8.0\JobHub.Shared.dll
+D:\Downloads\SigmaSoftAssignment\src\shared\JobHub.Shared\bin\Release\net8.0\JobHub.Shared.pdb
+D:\Downloads\SigmaSoftAssignment\src\shared\JobHub.Shared\obj\Release\net8.0\JobHub.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\SigmaSoftAssignment\src\shared\JobHub.Shared\obj\Release\net8.0\JobHub.Shared.AssemblyInfoInputs.cache
+D:\Downloads\SigmaSoftAssignment\src\shared\JobHub.Shared\obj\Release\net8.0\JobHub.Shared.AssemblyInfo.cs
+D:\Downloads\SigmaSoftAssignment\src\shared\JobHub.Shared\obj\Release\net8.0\JobHub.Shared.csproj.CoreCompileInputs.cache
+D:\Downloads\SigmaSoftAssignment\src\shared\JobHub.Shared\obj\Release\net8.0\JobHub.Shared.sourcelink.json
+D:\Downloads\SigmaSoftAssignment\src\shared\JobHub.Shared\obj\Release\net8.0\JobHub.Shared.dll
+D:\Downloads\SigmaSoftAssignment\src\shared\JobHub.Shared\obj\Release\net8.0\refint\JobHub.Shared.dll
+D:\Downloads\SigmaSoftAssignment\src\shared\JobHub.Shared\obj\Release\net8.0\JobHub.Shared.pdb
+D:\Downloads\SigmaSoftAssignment\src\shared\JobHub.Shared\obj\Release\net8.0\ref\JobHub.Shared.dll

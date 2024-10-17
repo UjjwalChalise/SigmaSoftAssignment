@@ -1,0 +1,16 @@
+D:\Downloads\SigmaSoftAssignment\src\JobHub.Domain\bin\Release\net8.0\JobHub.Domain.deps.json
+D:\Downloads\SigmaSoftAssignment\src\JobHub.Domain\bin\Release\net8.0\JobHub.Domain.dll
+D:\Downloads\SigmaSoftAssignment\src\JobHub.Domain\bin\Release\net8.0\JobHub.Domain.pdb
+D:\Downloads\SigmaSoftAssignment\src\JobHub.Domain\bin\Release\net8.0\JobHub.Shared.dll
+D:\Downloads\SigmaSoftAssignment\src\JobHub.Domain\bin\Release\net8.0\JobHub.Shared.pdb
+D:\Downloads\SigmaSoftAssignment\src\JobHub.Domain\obj\Release\net8.0\JobHub.Domain.csproj.AssemblyReference.cache
+D:\Downloads\SigmaSoftAssignment\src\JobHub.Domain\obj\Release\net8.0\JobHub.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\SigmaSoftAssignment\src\JobHub.Domain\obj\Release\net8.0\JobHub.Domain.AssemblyInfoInputs.cache
+D:\Downloads\SigmaSoftAssignment\src\JobHub.Domain\obj\Release\net8.0\JobHub.Domain.AssemblyInfo.cs
+D:\Downloads\SigmaSoftAssignment\src\JobHub.Domain\obj\Release\net8.0\JobHub.Domain.csproj.CoreCompileInputs.cache
+D:\Downloads\SigmaSoftAssignment\src\JobHub.Domain\obj\Release\net8.0\JobHub.Domain.sourcelink.json
+D:\Downloads\SigmaSoftAssignment\src\JobHub.Domain\obj\Release\net8.0\JobHub.D.A6330DBD.Up2Date
+D:\Downloads\SigmaSoftAssignment\src\JobHub.Domain\obj\Release\net8.0\JobHub.Domain.dll
+D:\Downloads\SigmaSoftAssignment\src\JobHub.Domain\obj\Release\net8.0\refint\JobHub.Domain.dll
+D:\Downloads\SigmaSoftAssignment\src\JobHub.Domain\obj\Release\net8.0\JobHub.Domain.pdb
+D:\Downloads\SigmaSoftAssignment\src\JobHub.Domain\obj\Release\net8.0\ref\JobHub.Domain.dll

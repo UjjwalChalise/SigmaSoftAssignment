@@ -22,7 +22,7 @@ public static class HttpServicesPilelineConfiguration
     private static void RegisterServicesConfiguration(WebApplicationBuilder builder)
     {
         // Build in services
-       
+
         builder.Services.AddControllers();
         builder.Services.AddEndpointsApiExplorer();
 
@@ -41,13 +41,13 @@ public static class HttpServicesPilelineConfiguration
     {
         builder.Services.AddSwaggerGen(options =>
         {
-            options.SwaggerDoc("v1", new OpenApiInfo 
-            { 
+            options.SwaggerDoc("v1", new OpenApiInfo
+            {
                 Title = "Book Service API",
                 Version = "v1",
                 Description = "API for managing Jobs",
             });
-         
+
         });
     }
 

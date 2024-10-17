@@ -5,12 +5,12 @@ namespace JobHub.Domain.Entities;
 public class Candidate
 {
     [Key]
-    public int Id { get; set; }
-    [Required]
-    public required string FirstName { get; set; }
     [Required]
     [DataType(DataType.EmailAddress)]
     public required string Email { get; set; }
+
+    [Required]
+    public required string FirstName { get; set; }
     [StringLength(maximumLength: 10)]
     public string? PhoneNumber { get; set; } = string.Empty;
     [Required]

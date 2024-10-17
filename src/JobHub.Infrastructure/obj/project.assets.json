@@ -1499,11 +1499,24 @@
       "JobHub.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "JobHub.Shared": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/JobHub.Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/JobHub.Domain.dll": {}
+        }
+      },
+      "JobHub.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/JobHub.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JobHub.Shared.dll": {}
         }
       }
     }
@@ -4045,6 +4058,11 @@
       "type": "project",
       "path": "../JobHub.Domain/JobHub.Domain.csproj",
       "msbuildProject": "../JobHub.Domain/JobHub.Domain.csproj"
+    },
+    "JobHub.Shared/1.0.0": {
+      "type": "project",
+      "path": "../shared/JobHub.Shared/JobHub.Shared.csproj",
+      "msbuildProject": "../shared/JobHub.Shared/JobHub.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {

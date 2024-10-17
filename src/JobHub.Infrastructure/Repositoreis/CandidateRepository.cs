@@ -1,12 +1,24 @@
-﻿using JobHub.Domain.IRepositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using JobHub.Domain.Entities;
+using JobHub.Domain.IRepositories;
+using JobHub.Shared.ApiResponse;
+
 
 namespace JobHub.Infrastructure.Repositoreis;
 
 public class CandidateRepository : ICandidateRepository
 {
+    public Task<DataResponse> AddOrUpdateCandidateAsync(Candidate candidate, CancellationToken cancellationToken)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<DataResponse<IEnumerable<Candidate>>> GetAllCandidateAsync(string email, CancellationToken cancellationToken)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<DataResponse<Candidate>> GetCandidateByEmailAsync(string email, CancellationToken cancellationToken)
+    {
+        throw new NotImplementedException();
+    }
 }
