@@ -1,0 +1,4 @@
+﻿
+
+namespace JobHub.Shared.Dtos;
+

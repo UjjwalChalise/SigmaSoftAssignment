@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/src/HobHub.API/bin/Debug/net8.0
+/src/HobHub.API/obj
+/src/JobHub.Application/bin/Debug/net8.0
+/src/JobHub.Application/obj/Debug/net8.0
+/src/JobHub.Domain/obj/Debug/net8.0
+/src/JobHub.Infrastructure/bin/Debug/net8.0
+/src/JobHub.Infrastructure/obj/Debug/net8.0
+/src/shared/JobHub.Shared/obj/Debug/net8.0
+/test/JobHub.Test/bin/Debug/net8.0
+/test/JobHub.Test/obj/Debug/net8.0
