@@ -4,14 +4,340 @@
     "D:\\Downloads\\SigmaSoftAssignment\\test\\JobHub.Test\\JobHub.Test.csproj": {}
   },
   "projects": {
-    "D:\\Downloads\\SigmaSoftAssignment\\test\\JobHub.Test\\JobHub.Test.csproj": {
+    "D:\\Downloads\\SigmaSoftAssignment\\src\\HobHub.API\\HobHub.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Downloads\\SigmaSoftAssignment\\test\\JobHub.Test\\JobHub.Test.csproj",
-        "projectName": "JobHub.Test",
-        "projectPath": "D:\\Downloads\\SigmaSoftAssignment\\test\\JobHub.Test\\JobHub.Test.csproj",
+        "projectUniqueName": "D:\\Downloads\\SigmaSoftAssignment\\src\\HobHub.API\\HobHub.API.csproj",
+        "projectName": "HobHub.API",
+        "projectPath": "D:\\Downloads\\SigmaSoftAssignment\\src\\HobHub.API\\HobHub.API.csproj",
         "packagesPath": "C:\\Users\\CCS\\.nuget\\packages\\",
-        "outputPath": "D:\\Downloads\\SigmaSoftAssignment\\test\\JobHub.Test\\obj\\",
+        "outputPath": "D:\\Downloads\\SigmaSoftAssignment\\src\\HobHub.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Downloads\\SigmaSoftAssignment\\src\\JobHub.Application\\JobHub.Application.csproj": {
+                "projectPath": "D:\\Downloads\\SigmaSoftAssignment\\src\\JobHub.Application\\JobHub.Application.csproj"
+              },
+              "D:\\Downloads\\SigmaSoftAssignment\\src\\JobHub.Infrastructure\\JobHub.Infrastructure.csproj": {
+                "projectPath": "D:\\Downloads\\SigmaSoftAssignment\\src\\JobHub.Infrastructure\\JobHub.Infrastructure.csproj"
+              },
+              "D:\\Downloads\\SigmaSoftAssignment\\src\\shared\\JobHub.Shared\\JobHub.Shared.csproj": {
+                "projectPath": "D:\\Downloads\\SigmaSoftAssignment\\src\\shared\\JobHub.Shared\\JobHub.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Downloads\\SigmaSoftAssignment\\src\\JobHub.Application\\JobHub.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Downloads\\SigmaSoftAssignment\\src\\JobHub.Application\\JobHub.Application.csproj",
+        "projectName": "JobHub.Application",
+        "projectPath": "D:\\Downloads\\SigmaSoftAssignment\\src\\JobHub.Application\\JobHub.Application.csproj",
+        "packagesPath": "C:\\Users\\CCS\\.nuget\\packages\\",
+        "outputPath": "D:\\Downloads\\SigmaSoftAssignment\\src\\JobHub.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Downloads\\SigmaSoftAssignment\\src\\JobHub.Infrastructure\\JobHub.Infrastructure.csproj": {
+                "projectPath": "D:\\Downloads\\SigmaSoftAssignment\\src\\JobHub.Infrastructure\\JobHub.Infrastructure.csproj"
+              },
+              "D:\\Downloads\\SigmaSoftAssignment\\src\\shared\\JobHub.Shared\\JobHub.Shared.csproj": {
+                "projectPath": "D:\\Downloads\\SigmaSoftAssignment\\src\\shared\\JobHub.Shared\\JobHub.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Downloads\\SigmaSoftAssignment\\src\\JobHub.Domain\\JobHub.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Downloads\\SigmaSoftAssignment\\src\\JobHub.Domain\\JobHub.Domain.csproj",
+        "projectName": "JobHub.Domain",
+        "projectPath": "D:\\Downloads\\SigmaSoftAssignment\\src\\JobHub.Domain\\JobHub.Domain.csproj",
+        "packagesPath": "C:\\Users\\CCS\\.nuget\\packages\\",
+        "outputPath": "D:\\Downloads\\SigmaSoftAssignment\\src\\JobHub.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Downloads\\SigmaSoftAssignment\\src\\shared\\JobHub.Shared\\JobHub.Shared.csproj": {
+                "projectPath": "D:\\Downloads\\SigmaSoftAssignment\\src\\shared\\JobHub.Shared\\JobHub.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Downloads\\SigmaSoftAssignment\\src\\JobHub.Infrastructure\\JobHub.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Downloads\\SigmaSoftAssignment\\src\\JobHub.Infrastructure\\JobHub.Infrastructure.csproj",
+        "projectName": "JobHub.Infrastructure",
+        "projectPath": "D:\\Downloads\\SigmaSoftAssignment\\src\\JobHub.Infrastructure\\JobHub.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\CCS\\.nuget\\packages\\",
+        "outputPath": "D:\\Downloads\\SigmaSoftAssignment\\src\\JobHub.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Downloads\\SigmaSoftAssignment\\src\\JobHub.Domain\\JobHub.Domain.csproj": {
+                "projectPath": "D:\\Downloads\\SigmaSoftAssignment\\src\\JobHub.Domain\\JobHub.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Downloads\\SigmaSoftAssignment\\src\\shared\\JobHub.Shared\\JobHub.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Downloads\\SigmaSoftAssignment\\src\\shared\\JobHub.Shared\\JobHub.Shared.csproj",
+        "projectName": "JobHub.Shared",
+        "projectPath": "D:\\Downloads\\SigmaSoftAssignment\\src\\shared\\JobHub.Shared\\JobHub.Shared.csproj",
+        "packagesPath": "C:\\Users\\CCS\\.nuget\\packages\\",
+        "outputPath": "D:\\Downloads\\SigmaSoftAssignment\\src\\shared\\JobHub.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,10 +375,86 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Downloads\\SigmaSoftAssignment\\test\\JobHub.Test\\JobHub.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Downloads\\SigmaSoftAssignment\\test\\JobHub.Test\\JobHub.Test.csproj",
+        "projectName": "JobHub.Test",
+        "projectPath": "D:\\Downloads\\SigmaSoftAssignment\\test\\JobHub.Test\\JobHub.Test.csproj",
+        "packagesPath": "C:\\Users\\CCS\\.nuget\\packages\\",
+        "outputPath": "D:\\Downloads\\SigmaSoftAssignment\\test\\JobHub.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CCS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Downloads\\SigmaSoftAssignment\\src\\HobHub.API\\HobHub.API.csproj": {
+                "projectPath": "D:\\Downloads\\SigmaSoftAssignment\\src\\HobHub.API\\HobHub.API.csproj"
+              },
+              "D:\\Downloads\\SigmaSoftAssignment\\src\\JobHub.Application\\JobHub.Application.csproj": {
+                "projectPath": "D:\\Downloads\\SigmaSoftAssignment\\src\\JobHub.Application\\JobHub.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.6.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
